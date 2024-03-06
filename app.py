@@ -3,9 +3,9 @@ def calculate_sum():
         num1 = float(input("Enter the first number: "))
         num2 = float(input("Enter the second number: "))
         result1 = num1 + num2
-        print(fThe sum of {num1} and {num2} is: {result1})
+        print("The sum of {num1} and {num2} is: {result1}")
     except ValueError:
-        print(Invalid input. Please enter valid numbers.)
+        print("Invalid input. Please enter valid numbers.")
 
 if __name__ == __main__:
     calculate_sum()
