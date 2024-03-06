@@ -7,6 +7,6 @@ def calculate_sum():
     except ValueError:
         print("Invalid input. Please enter valid numbers.")
 
-if __name__ == __main__:
+if __name__ == '__main__':
     calculate_sum()
 
